@@ -1,0 +1,38 @@
+ if ($datos->fetch_object()) {
+            header("location:inicio.php");
+        } else {
+            echo '<div>ACCESO DENEGADO</div>';
+
+        }   
+        }
+
+        $sql=$conexion->query(" select * form datos where Usuario='$usuario' and clave='$clave' ");
+
+
+        <?php
+
+define("DB_HOST", "localhost");
+define("DB_USER", "root");
+define("DB_PASS", "");
+define("DB_NAME", "login");
+
+?>
+
+
+
+
+$conexion=new mysqli("localhost","root","","login","3306");
+        $query=$conexion->query(' SELECT*FROM datos where Usuario="$usuario" and clave="$clave" ');
+        $resultado=($query);
+        $datos=(!empty($_POST["Usuario"]) && !empty($_POST["password"]));
+
+
+        if ($resultado) {
+            while ($datos=$resultado->fetch_session()) {
+                header("location:inicio.php");
+            }
+        } else {   
+           
+            echo '<div>ACCESO DENEGADO</div>';
+
+        }

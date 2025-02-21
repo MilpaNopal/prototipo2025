@@ -1,0 +1,108 @@
+
+/*fondo*/
+body{
+    background: rgb(36, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.fila{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+/*letras*/
+*{
+    font-family: 'Lato' , sans-serif;
+    font-family: 'Open Sans' , sans-serif;
+    font-family: 'PT Sans' , sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+/*cuadro*/
+form{
+    width: 600px;
+    border: 2px solid black;
+    padding: 6rem;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
+/*Titulo*/
+h1{
+    
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*formato de login*/
+label{
+    color: rgb(0, 130, 243);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+/*datos login*/
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/*botones*/
+.bt{
+    float: right;
+    background-color: #6bccc1;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 40%;
+    border-radius: 2px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+
+
+/*error xd*/
+.error{
+
+    background-color: rgb(175, 74, 74);
+    font-family: 'PT Sans' , sans-serif;
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+
+}
+
+
+/*para cuando te ingrsas casi ni importa */
+.good{
+    
+    background-color: rgb(76, 253, 40);
+    font-family: 'PT Sans' , sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}

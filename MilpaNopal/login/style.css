@@ -1,0 +1,105 @@
+
+/*fondo*/
+body{
+    background-image: url(../img/f2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/*letras*/
+*{
+    font-family: 'Lato' , sans-serif;
+    font-family: 'Open Sans' , sans-serif;
+    font-family: 'PT Sans' , sans-serif;
+    box-sizing: border-box;
+}
+
+/*cuadro*/
+form{
+    background-color: #55da3477;
+    width: 600px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 6rem;
+    border-radius: 20px;
+    color: black;
+}
+
+/*Titulo*/
+h1{
+    color: aliceblue;
+    display: block;
+    border: none;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/*formato de login*/
+label{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+
+/*datos login*/
+input{  
+    transition: 800ms;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, .2);
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input:focus{
+    transition: 800ms;
+    border: 2px solid rgba(255, 255, 255, 0.39);  
+    background-color: transparent;
+    box-decoration-break: unset;
+    outline: none;
+}
+
+/*botones*/
+.bt{
+    float: right;
+    background-color: #3dc51b;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 40%;
+    max-height: 35px;
+    border-radius: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.bt:hover{
+    transition: 500ms;
+    background-color: var(--hover-color);
+    font-size: 15px;
+}
+
+/*error*/
+.error{
+
+    font-family: 'PT Sans' , sans-serif;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 15px auto;
+    font-weight: 1000;
+}
+
